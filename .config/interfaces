@@ -1,0 +1,9 @@
+source /etc/network/interfaces.d/*
+
+auto lo
+iface lo inet loopback
+
+allow-hotplug enp4s0
+iface enp4s0 inet dhcp
+
+
