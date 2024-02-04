@@ -121,7 +121,6 @@ unset GDK_PIXBUF_MODULE_FILE
 . "$HOME/.cargo/env"
 eval "$(starship init bash)"
 
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+## Load Angular CLI autocompletion.
+#source <(ng completion script)
 alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME

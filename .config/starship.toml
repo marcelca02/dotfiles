@@ -7,6 +7,12 @@ format='''
 [aws]
 symbol = "  "
 
+[hostname]
+ssh_only = false
+format = '[$ssh_symbol](bold blue) on [$hostname](bold red) '
+trim_at = '.companyname.com'
+disabled = false
+
 [battery]
 full_symbol = '  '
 charging_symbol = '  '
